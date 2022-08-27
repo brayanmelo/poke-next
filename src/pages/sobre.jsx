@@ -10,7 +10,7 @@ const sobre = () => {
       <div data-aos="fade-right" className={styles.info}>
         <h1>Sobre o projeto</h1>
         <p>
-          Projeto feito com o intuito de praticar e pôr em prática os conceitos
+          Projeto feito com o intuito de pôr em prática os conceitos
           fundamentais da programação Front-end, neste projeto foi utilizado o
           framework Next.js e consumindo a API
           <a
@@ -18,7 +18,7 @@ const sobre = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            PokeApi
+            PokeApi.
           </a>
         </p>
       </div>

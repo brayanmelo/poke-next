@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import Card from "../components/Card";
 import Input from "../components/Input";
-import Aos from "aos";
 
 //CSS
 import styles from "../styles/Home.module.css";
@@ -27,10 +26,6 @@ export const getStaticProps = async () => {
 };
 
 export default function Home({ pokemons }) {
-  useEffect(() => {
-    Aos.init({ duration: 1300 });
-  }, []);
-
   //Search
   const [search, setSearch] = useState([]);
 
