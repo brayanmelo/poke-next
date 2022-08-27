@@ -1,0 +1,40 @@
+.container_input {
+  text-align: center;
+  margin: 2rem auto;
+  max-width: 100%;
+}
+
+.container_input h1 {
+  font-size: 2.7rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  line-height: 40px;
+}
+
+.container_input h1 span {
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-size: 2rem;
+  color: var(--color-main);
+}
+
+.container_input p {
+  opacity: 0.8;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.input {
+  padding: 10px 10px;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  outline: 2px solid var(--color-main);
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 1366px) {
+  .input {
+    width: 60%;
+  }
+}

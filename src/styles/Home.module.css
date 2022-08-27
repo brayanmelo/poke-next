@@ -1,0 +1,31 @@
+.line {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.178);
+  margin-bottom: 2.5rem;
+}
+.line span {
+  opacity: 0.8;
+  font-size: 0.7rem;
+}
+
+.container {
+  padding: 3% 12%;
+  min-height: 100vh;
+}
+
+.filter_container {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.filter_container ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    width: 55vw;
+  }
+}

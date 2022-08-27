@@ -1,0 +1,46 @@
+.container_menu {
+  width: 100%;
+}
+
+.menu {
+  background-color: var(--color-main);
+  border-bottom: 3px solid rgba(43, 43, 43, 0.233);
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  cursor: pointer;
+  margin-left: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.logo p {
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+
+.list_links {
+  display: flex;
+  padding: 10px;
+  margin-right: 2rem;
+}
+
+.list_links li:first-child {
+  margin-right: 3rem;
+}
+
+.list_links a {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--color-font);
+  transition: 0.2s;
+}
+
+.list_links a:hover {
+  color: rgb(211, 211, 211);
+}

@@ -1,0 +1,94 @@
+.line {
+  border-top: 1px solid rgba(255, 255, 255, 0.336);
+}
+
+.button {
+  cursor: pointer;
+  background-color: var(--color-main);
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: none;
+  color: var(--color-font);
+  font-weight: 600;
+  margin-bottom: 2rem;
+  transition: 0.2s;
+}
+
+.button:hover {
+  background-color: rgb(0, 102, 255);
+}
+
+.info {
+  width: 80%;
+  margin: 0 auto;
+  padding: 15px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info h2 {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.type {
+  width: 80%;
+  margin: 0 auto;
+  padding: 15px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 8px;
+}
+
+.type h2 {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.types,
+.height_weight {
+  display: flex;
+  justify-content: space-between;
+}
+
+.types h3 {
+  font-size: 1rem;
+  background-color: var(--color-main);
+  text-align: center;
+  width: 85px;
+  padding: 5px 8px;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.character {
+  width: 80%;
+  margin: 0 auto;
+  padding: 15px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.character h2 {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.height_weight h3 {
+  font-size: 1rem;
+  background-color: var(--color-main);
+  text-align: center;
+  width: 85px;
+  padding: 5px 8px;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.types h3:hover,
+.height_weight h3:hover {
+  cursor: pointer;
+  background-color: rgb(0, 102, 255);
+}
