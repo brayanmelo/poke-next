@@ -2,18 +2,11 @@ import React from "react";
 import Footer from "./Footer";
 import NavBar from "./NavBar";
 import Head from "next/head";
-import Aos from "aos";
-
-//Hooks
-import { useEffect } from "react";
 
 //CSS
 import styles from "../styles/Layout.module.css";
 
 const Layout = ({ children }) => {
-  useEffect(() => {
-    Aos.init({ duration: 1300 });
-  }, []);
   return (
     <>
       <Head>

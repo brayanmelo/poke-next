@@ -1,10 +1,17 @@
 import Layout from "../components/Layout";
 import NextNProgress from "nextjs-progressbar";
+import Aos from "aos";
+
+//Hooks
+import { useEffect } from "react";
 
 //CSS
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
+  useEffect(() => {
+    Aos.init({ duration: 1300 });
+  }, []);
   return (
     <Layout>
       <NextNProgress
