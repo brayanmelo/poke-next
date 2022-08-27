@@ -4,8 +4,9 @@
   max-width: 100%;
 }
 
-.container_input h1 {
-  font-size: 2.7rem;
+.container_input .title {
+  color: var(--color-font);
+  font-size: 3rem;
   font-weight: 800;
   margin-bottom: 1rem;
   line-height: 40px;
@@ -28,9 +29,9 @@
   padding: 10px 10px;
   width: 100%;
   border-radius: 10px;
-  border: none;
-  outline: 2px solid var(--color-main);
-  margin-bottom: 2rem;
+  border: 2px solid var(--color-main);
+  outline: none;
+  margin-bottom: 1.5rem;
 }
 
 @media screen and (min-width: 1366px) {

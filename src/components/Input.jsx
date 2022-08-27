@@ -7,7 +7,8 @@ const Input = ({ setSearch }) => {
   return (
     <div className={styles.container_input}>
       <h1>
-        Poke Next <span> • Search Your Pokémon</span>
+        <span className={styles.title}>Poke Next</span>
+        <span> •Search Your Pokémon</span>
       </h1>
       <p>Pesquise pelo nome do seu Pokémon favorito </p>
       <input
