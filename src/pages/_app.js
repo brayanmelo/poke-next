@@ -7,6 +7,7 @@ import { useEffect } from "react";
 
 //CSS
 import "../styles/globals.css";
+import "aos/dist/aos.css";
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {

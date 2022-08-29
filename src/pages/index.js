@@ -1,10 +1,9 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Card from "../components/Card";
 import Input from "../components/Input";
 
 //CSS
 import styles from "../styles/Home.module.css";
-import "aos/dist/aos.css";
 
 export const getStaticProps = async () => {
   const maxPokemons = 649;
